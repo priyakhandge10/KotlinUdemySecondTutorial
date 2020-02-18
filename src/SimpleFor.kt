@@ -11,7 +11,7 @@ fun main(){
     for (i: Int in 10 downTo 1){
         println("$i kotlin tutorial")
     }
-    for (i: Int in 10 downTo 1 step 3){
+    for (i: Int in 10 downTo 1 step 1){
         println("$i kotlin tutorial")
     }
 }
