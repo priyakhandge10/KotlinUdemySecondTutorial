@@ -6,6 +6,7 @@ class Constructor(){
     var price:Double?= null
     var milesdrive:Int?=null
     var owner:String?= null
+
     constructor( type:String,  model:Int,  price:Double,  milesdrive: Int, owner:String):this(){
         this.type =type
         this.model = model
@@ -14,20 +15,16 @@ class Constructor(){
         this.owner = owner
     }
 
-
     constructor( type:String,  model:Int,  price:Double,  milesdrive: Int):this(){
-        this.type =type
+        this.type = type
         this.model = model
         this.price = price
         this.milesdrive = milesdrive
 
     }
 
-
-
     fun getCarPrice():Double{
         return this.price!!-(this.milesdrive!!.toDouble()*10)
-
     }
 }
 
