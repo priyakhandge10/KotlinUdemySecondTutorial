@@ -29,15 +29,8 @@ open class CarOptions(){
     fun  getPrice():Double{
         return this.price!!
     }
-
-
-
 }
-
-
 fun main() {
-
-
     val car1 = CarOptions("BMW",2015,10000.0,105,"Hussein Alrubaye")
     car1.type="KIA"
     println(car1.type)
@@ -48,7 +41,4 @@ fun main() {
     println(car2.type)
     println(car2.owner)
     println(car2.getCarPrice())
-
-
-
 }
